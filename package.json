@@ -1,0 +1,40 @@
+{
+  "name": "ref-perf-bug-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "public/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
+    "babel-plugin-transform-flow-strip-types": "^6.18.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-regenerator-runtime": "^6.5.0",
+    "css-loader": "^0.28.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "flow-bin": "^0.45.0",
+    "node-sass": "^4.5.3",
+    "react": "^15.4.1",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-addons-perf": "^15.3.0",
+    "react-dom": "^15.4.1",
+    "react-toolbox": "^1.3.4",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open -d",
+    "build": "webpack -p --progress"
+  },
+  "author": "Samuel Scheiderich",
+  "license": "UNLICENSED"
+}

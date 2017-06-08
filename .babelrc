@@ -1,0 +1,9 @@
+{
+  "presets": ["latest", "react"],
+  "plugins": [
+    "transform-flow-strip-types",
+    ["transform-es2015-classes", {
+      "loose": true
+    }]
+  ]
+}
